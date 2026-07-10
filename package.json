@@ -1,0 +1,25 @@
+{
+  "name": "findmypair-backend",
+  "version": "1.0.0",
+  "description": "tinder of devs",
+  "homepage": "https://github.com/yashaswipatil/findMyPair-backend#readme",
+  "bugs": {
+    "url": "https://github.com/yashaswipatil/findMyPair-backend/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yashaswipatil/findMyPair-backend.git"
+  },
+  "license": "ISC",
+  "author": "Yashaswi Patil",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "start" : "node src/app.js",
+    "dev" : "nodemon src/app.js"
+  },
+  "dependencies": {
+    "express": "^5.2.1",
+    "nodemon": "^3.1.14"
+  }
+}
