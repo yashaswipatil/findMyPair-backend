@@ -67,6 +67,8 @@ app.patch('/user' , async (req , res) => {
    }
 })
 
+//*next api here
+
 connectDb()
   .then(() => {
     console.log("database connection is established!");
